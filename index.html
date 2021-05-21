@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facebook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <div>
+      <img class="facebook-logo" alt="Facebook logo" src="testando.png">
+    </div>
+    <Form class='facebook-login'>
+      <container class='form-group' id="marginInput">
+        <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+        <input type="text" class='input-login' name="login" id="user-email-phone" maxlength="60" required>
+      </container>
+      <container class='form-group'>
+        <label for="user-password" id="user-password-label">Senha</label>
+        <input type="password" name="senha" id="user-password" maxlength="60" required>
+        <a href="">Esqueceu a conta?</a>
+      </container>
+      <container class='form-control'>
+        <button id="button-login">Entrar</button>
+      </container>
+    </Form>
+  </header>
+  <section class="main-content" id="main">
+    <div class="left-content">
+      <p id="facebook-slogan" class="slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <img src="imgs/networking.png" alt="glogal net" id="facebook-networking" class="network">
+    </div>
+    <div class="right-content" id="right-content">
+      <h1 class="h1">Abra uma conta</h1>
+      <p class="quick-easy">É rápido e fácil.</p>
+      <form action="" class="cadastro" id="cadastro">
+        <section class="nomeSobrenome">
+          <input type="text"  name="firstname" placeholder="Nome"  required>
+          <input type="text"  name="lastname" placeholder="Sobrenome" required>
+        </section>
+        <input type="text"  name="phone_email"  placeholder="Celular ou email"  required>
+        <input type="password"  name="password" placeholder="Nova senha"  required>
+        <label for="label-birthday" id="label-birthdate" class="nascimento">Data de nascimento</label>
+        <section class="selectDate">
+        <select name="" id="dia">
+          <option value="1" selected >1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <select name="" id="mes">
+          <option value="Jan" selected>jan</option>
+          <option value="Fev">fev</option>
+          <option value="Mar">mar</option>
+          <option value="Abr">abr</option>
+          <option value="Mai">mai</option>
+          <option value="Jun">jun</option>
+          <option value="Jul">jul</option>
+          <option value="Ago">ago</option>
+          <option value="Set">set</option>
+          <option value="Out">out</option>
+          <option value="Nov">nov</option>
+          <option value="Dez">dez</option>
+        </select>
+        <select name="" id="ano">
+          <option value="1985" selected>1985</option>
+          <option value="1986">1986</option>
+          <option value="1987">1987</option>
+          <option value="1988">1988</option>
+          <option value="1989">1989</option>
+          <option value="1990">1990</option>
+          <option value="1991">1991</option>
+          <option value="1992">1992</option>
+          <option value="1993">1993</option>
+          <option value="1994">1994</option>
+          <option value="1995">1995</option>
+          <option value="1996">1996</option>
+          <option value="1997">1997</option>
+          <option value="1998">1998</option>
+          <option value="1999">1999</option>
+          <option value="2000">2000</option>
+          <option value="2001">2001</option>
+          <option value="2002">2002</option>
+          <option value="2003">2003</option>
+          <option value="2004">2004</option>
+          <option value="2005">2005</option>
+          <option value="2006">2006</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+        </select>
+      </section>
+        <label for="" id="label-gender" class="labelGender">Gênero</label>
+        <section class="radioButtons">
+          <input type="radio" name="gender" id="gender-female" value="Feminino">
+          <label for="gender-female">Feminino</label>
+          <input type="radio" name="gender" id="gender-male" value="Masculino">
+          <label for="gender-male">Masculino</label>
+          <input type="radio" name="gender" id="gender-custom" value="Personalizado">
+          <label for="gender-custom">Personalizado</label>
+        </section>
+        <input type="text"  name="gender-custom" id="genderText" placeholder="Gênero (opcional)">
+        <button type="submit" id="facebook-register" class="submit">Cadastre-se</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div>
+      <a href="" class="language">Português (Brasil) </a>
+        <a href="" >   English (US) </a>
+        <a href="" >  Español </a>
+        <a href="" >  Français (France) </a>
+        <a href="" >  Italiano </a>
+        <a href="" >  العربية </a>
+        <a href="" >  Deutsch </a>
+        <a href="" >  हिन्दी </a>
+        <a href="" >  中文(简体) </a>
+        <a href="" >  日本語 </a>
+
+       <div class="line"></div>
+       <a href="">Cadastre-se   Entrar     Messenger    Facebook Lite     Watch     Pessoas     Páginas     Categorias de Página      Locais      Jogos     Locais      Marketplace     Facebook Pay      Grupos      Vagas de emprego      Oculus      Portal Instagram    Local     Campanhas de arrecadação de fundos     Serviços Central de Informações de Votação     Sobre     Criar anúncio     Criar Página    Desenvolvedores     Carreiras     Privacidade Cookies     Escolhas para anúncios      Termos    Ajuda     Configurações     Registro de Atividades</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
