@@ -8,9 +8,7 @@
 </head>
 <body>
   <header class="top-bar">
-    <div>
-      <img class="facebook-logo" alt="Facebook logo" src="testando.png">
-    </div>
+      <img class="facebook-logo" alt="Facebook logo" src="./imgs/facebook-logo.png">
     <Form class='facebook-login'>
       <container class='form-group' id="marginInput">
         <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
@@ -132,8 +130,35 @@
         <button type="submit" id="facebook-register" class="submit">Cadastre-se</button>
       </form>
     </div>
+    <section class="mobile">
+      <p class="topText">Você deve se conectar primeiro.</p>
+      <div class="inputContainer">
+        <input type="text"  name="phone_email"  placeholder="Número de celular ou email"  required>
+        <input type="password"  name="password" placeholder="Senha"  required>
+        <button class="enter"type="button">Entrar</button>
+      </div>
+      <p>OU</p>
+      <div class="pass">
+        <button class="createPass" type="button">Criar Nova Senha</button>
+        <a>Esqueceu a senha?</a>
+      </div>
+      <div class="languages">
+        <div class="languageLeft">
+          <a href="" class="language">Português (Brasil) </a>
+          <a href="" >  Español </a>
+          <a href="" >  Deutsch </a>
+          <a href="" >  العربية </a>
+        </div>
+        <div class="languageRight">
+          <a href="" >   English (US) </a>
+          <a href="" >  Français (France) </a>
+          <a href="" >  Italiano </a>
+        </div>
+      </div>
+      <p class="inc">Facebook, Inc</p>
+    </section>
   </section>
-  <footer>
+  <footer class="footer">
     <div>
       <a href="" class="language">Português (Brasil) </a>
         <a href="" >   English (US) </a>
