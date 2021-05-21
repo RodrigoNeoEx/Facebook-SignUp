@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+.mobile {
+  display: none;
+}
+
 .facebook-login {
   align-items: center;
   display: flex;
