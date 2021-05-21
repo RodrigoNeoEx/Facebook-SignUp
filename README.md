@@ -5,6 +5,8 @@
 #### Projeto executado com aproximadamente 2 meses de curso.
 
 #### Este projeto não foi refatorado, permanece com mesma estrura de script, html e css ao projeto feito originalmente.
+#### Projeto executado em grupo, para não alterar estrutura de commits, feito ctrlC / ctrlV no projeto ja finalizado.
+
 
 [website]: https://ajuda.betrybe.com/hc/pt-br/articles/360056543894-Quem-pode-estudar-na-Trybe-
 ---
